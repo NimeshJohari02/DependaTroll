@@ -24,7 +24,7 @@ auth_token = os.getenv('GITHUB_AUTH_TOKEN');
 
 #Superss Output of runcmd
 # taking command line input 
-msg="Welcome to the Dyte Dependency CLI . Your reliable dependabot clone without the annoying Notifications :) ";
+msg="Welcome to the DependaTroll CLI . Your reliable dependabot clone without the annoying Notifications :) ";
 parser = argparse.ArgumentParser(description=msg)
 parser.add_argument('-u' , '--update' , help="Update the Dependancy CLI"  , nargs='?' )
 parser.add_argument('-i', '--input', help='File to be read', nargs='+' , required=True)
